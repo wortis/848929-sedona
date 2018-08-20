@@ -88,8 +88,14 @@
       </footer>
       <section class="city-hotels">
         <h2 class="city-hotels-title">Поиск гостинницы в седоне</h2>
-        <!-- Здесь будет форма -->
-        <button class="modal-close">x</button>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="desire-item"><label for="desire-date-entry">Дата въезда</label><input id="desire-date-entry" type="text" name="date-entry" value="" placeholder="24.04.2017"></p>
+          <p class="desire-item"><label for="desire-date-departure">Дата выезда</label><input id="desire-date-departure" type="text" name="date-departure" value="" placeholder="4.07.2017"></p>
+          <p class="desire-item"><label for="desire-adults">Взрослые</label><input id="desire-adults" type="text" name="adults" value="" placeholder="2"></p>
+          <p class="desire-item"><label for="desire-kids">Дети</label><input id="desire-kids" type="text" name="kids" value="" placeholder="0"></p>
+          <button class="button" type="submit">Найти</button>
+        </form> 
+        <button class="modal-close" type="button">Закрыть</button>
       </section>
       <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
