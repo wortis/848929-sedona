@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: font-family: 'PT Sans', Arial, sans-serif;
+  font-family: 'PT Sans', Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
@@ -111,33 +111,27 @@ a {
 .catalog-item {
   background-color: #f8f8f8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 21px;
 }
 .catalog-item a {
   color: #000000;
 }
 
-.catalog-item a {
+.appellation {
   font-size: 21px;
   line-height: 26px;
 }
+
 .catalog-item-kind {
   text-transform: none;
-   font-size: 14px;
-  line-height: 21px;
 }
-.catalog-item-price {
-  font-size: 14px;
-  line-height: 21px;
-}
+
 .catalog-item .button {
-  font-size: 14px;
-  line-height: 21px;
   color: #ffffff;
   background-color: #81b3d2;
 }
 .catalog-item .button-reservation {
-  font-size: 14px;
-  line-height: 21px;
   color: #ffffff;
   background-color: #766357;
 }
