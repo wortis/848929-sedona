@@ -9,82 +9,103 @@ body {
   text-transform: uppercase;	
   background-color: #ffffff;	
 }	
+
 a {	
   text-decoration: none;	
-}	
+}
+
 .site-navigation {	
   font-size: 14px;	
   line-height: 26px;	
   color: #333333;	
   	
   background-color: #ffffff;	
-}	
+}
+
 .navigation-list {	
   list-style: none;	
-}	
+}
+
 .navigation-list a {	
   color: #333333;	
-}	
+}
+
 .navigation-list a:hover,	
 .navigation-list a:focus {	
   color: #99cccc;	
 }	
+
 .one-reason {	
   text-align: center;	
   color: #ffffff;	
   background-color: #81b3d2;	
 }	
+
 .one-reason h3 {	
   font-size: 21px;	
   line-height: 21px;	
 }	
+
 .additional-advantage-list {	
   list-style: none;	
 }	
+
 .additional-advantage-list {	
   text-align: center;	
   color: #333333;	
 }	
+
 .another-reasons-list {	
   list-style: none;	
   background-color: #ffffff;	
 }	
+
 .another-reasons-list {	
   text-align: center;	
   color: #333333;	
 }	
+
 .desire {	
   text-align: center;	
   color: #333333;	
 }	
+
 .desire-item input {	
   font: inherit;	
   background-color: #f2f2f2;	
 }	
+
 .desire-item input:hover {	
   background-color: #ebebeb;	
 }	
+
 .desire-item input:focus {	
   border-color: #e5e5e5;	
 }	
+
 .option-collating-list {	
   list-style: none;	
 }	
+
 .option-collating-list a {	
   color: #b2b2b2;	
   text-decoration: underline;	
 }	
+
 .option-collating-list a:hover,	
 .option-collating-list a:focus {	
   color: #89b8d5;	
 }	
+
 .option-collating-list a:active {	
   color: #89b8d5;	
   text-decoration: none;	
 }	
+
 .filter fieldset {	
   border: none;	
 }	
+
 .filter legend {	
   font-size: 16px;	
   line-height: 21px;	
@@ -93,30 +114,37 @@ a {
   list-style: none;	
   line-height: 21px;	
 }	
+
 .filter-input:hover + label,	
 .filter-input:focus + label {	
   color: #ffffff;	
 }	
+
  .filter-input:disabled + label {	
   color: #6a6a6a;	
    opacity: 0.5;	
 }	
+
 .catalog-list {	
   list-style: none;	
 }	
+
  .catalog-item {	
   background-color: #f8f8f8;	
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-size: 14px;	
   line-height: 21px;
 }	
+
 .catalog-item a {	
   color: #000000;	
 }	
+
  .appellation {	
   font-size: 21px;	
   line-height: 26px;	
 }	
+
 .catalog-item-kind {	
   text-transform: none;	
 }	
@@ -130,6 +158,7 @@ a {
   color: #ffffff;	
   background-color: #766357;	
 }	
+
  .main-footer {	
   color: #000000;	
   	
@@ -137,21 +166,27 @@ a {
   background-position: 0 0;	
   background-repeat: repeat;	
 }	
+
 .footer-social {	
   text-align: center;	
 }	
+
  .footer-social ul {	
   list-style: none;	
 }	
+
  .social-button {	
   color: #000000;	
 }	
+
 .footer-copyright {	
   text-align: center;	
 }	
+
 .footer-copyright a {	
   color: #000000;	
 }	
+
  .footer-copyright .button:hover,	
 .footer-copyright .button:focus {	
   color: #81b3d2;	
