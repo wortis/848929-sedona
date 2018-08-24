@@ -117,22 +117,14 @@ a {
 }	
 .catalog-item-kind {	
   text-transform: none;	
-   font-size: 14px;	
-  line-height: 21px;	
 }	
-.catalog-item-price {	
-  font-size: 14px;	
-  line-height: 21px;	
-}	
-.catalog-item .button {	
-  font-size: 14px;	
-  line-height: 21px;	
+		
+.catalog-item .button {		
   color: #ffffff;	
   background-color: #81b3d2;	
 }	
-.catalog-item .button-reservation {	
-  font-size: 14px;	
-  line-height: 21px;	
+
+.catalog-item .button-reservation {		
   color: #ffffff;	
   background-color: #766357;	
 }	
