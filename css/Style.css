@@ -354,6 +354,107 @@ a {
   margin-top: 31px;
 }
 
+.filter-input-checkbox {
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-input-checkbox:hover,
+.filter-input-checkbox:focus {
+  color: #ffffff;
+}
+
+.filter-input-checkbox[type="checkbox"] + .checkbox-indicator {
+  position: absolute;
+  top: 13;
+  left: 100px;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #ffffff;
+}
+
+.filter-input-checkbox-2[type="checkbox"] + .checkbox-indicator {
+  position: absolute;
+  top: 13;
+  left: 330px;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #ffffff;
+}
+
+.filter-input-checkbox[type="checkbox"]:focus + .checkbox-indicator {
+  border-color: #ffffff;
+  outline: thin dotted;
+  outline: 5px auto;
+}
+    
+.filter-input-checkbox-2[type="checkbox"]:focus + .checkbox-indicator {
+  border-color: #ffffff;
+  outline: thin dotted;
+  outline: 5px auto;
+}
+
+.filter-input-checkbox[type="checkbox"]:checked + .checkbox-indicator::before,
+.filter-input-checkbox[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
+
+  position: absolute;
+  top: 8px;
+  left: 0px;
+
+  width: 17px;
+  height: 2px;
+
+  background-color: #ffffff;
+}
+
+.filter-input-checkbox[type="checkbox"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.filter-input-checkbox[type="checkbox"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+.filter-input-checkbox[type="checkbox"]:focus + .checkbox-indicator {
+  border-color: #ffffff;
+  outline: thin dotted;
+  outline: 5px auto;
+}
+    
+.filter-input-checkbox-2[type="checkbox"]:focus + .checkbox-indicator {
+  border-color: #ffffff;
+  outline: thin dotted;
+  outline: 5px auto;
+}
+
+.filter-input-checkbox-2[type="checkbox"]:checked + .checkbox-indicator::before,
+.filter-input-checkbox-2[type="checkbox"]:checked + .checkbox-indicator::after {
+  content: "";
+
+  position: absolute;
+  top: 8px;
+  left: 0px;
+
+  width: 17px;
+  height: 2px;
+
+  background-color: #ffffff;
+}
+
+.filter-input-checkbox-2[type="checkbox"]:checked + .checkbox-indicator::before {
+  transform: rotate(45deg);
+}
+
+.filter-input-checkbox-2[type="checkbox"]:checked + .checkbox-indicator::after {
+  transform: rotate(-45deg);
+}
+
+
 .filter-value{
   position: absolute;
   left: 70%;
@@ -368,11 +469,6 @@ a {
 
   cursor: pointer;
 }
-
-.filter-section input {
-  
-}
-
 
 .filter ul {
   list-style: none;
