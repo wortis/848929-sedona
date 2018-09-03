@@ -1,4 +1,5 @@
 body {
+  min-width: 768px;
   margin: 0;
   padding: 0;
 
@@ -105,6 +106,10 @@ a {
   padding: 0;
   list-style: none;
   text-align: center;
+}
+
+.reason-item {
+  min-width: 256px;
 }
 
 .reason-item h3 {
@@ -267,6 +272,60 @@ a {
   color: #818181;
 
   background-color: #5496bd;
+}
+
+.search-button {
+  padding-top: 32px;
+  padding-left: 138px;
+  padding-right: 139px;
+  padding-bottom: 32px;
+}
+
+.modal {
+  position:absolute;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.modal-search-form {
+  top: 1469px;
+  left: 26.3%;
+  min-height: 395px;
+  padding-left: 54px;
+  padding-right: 55px;
+  display: none;
+}
+
+.search-item {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 459px;
+  justify-content:space-between;
+}
+
+.arrival-date {
+  padding-top: 55px;
+}
+
+.departure-date {
+  padding-top: 29px;
+}
+
+.aduls {
+  padding-top: 30px; 
+}
+
+.kids {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.find-button {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 17px;
 }
 
 /*--Каталог - внутренняя страница--*/
