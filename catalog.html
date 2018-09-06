@@ -72,29 +72,26 @@
           </fieldset>
         </div>
         <div class="wrapper">
-          <fieldset class="filter-value">
-            <legend class="filter-title">Стомость сутки (р):</legend>
-            <div class="filter-section">
-              <p class="filter-item">
+           <fieldset class="filter-range">
+            <legend class="filter-range-title">Стомость сутки (р):</legend>
+            <div class="filter-section price-controls">
+             
                 <label for="min-value">От</label>
-                <input id="min-value" type="text" name="min" placeholder="0">
-              </p>
-              <p class="filter-item">
+                <input id="min-value" type="text" name="min-price" value="0">
+              
                 <label for="max-value">До</label>
-                <input id="max-value" type="text" name="max" placeholder="3000">
-              </p>
+                <input id="max-value" type="text" name="max-prace" value="3000">
             </div>
-            <div class="filter-roller">
-              <div class="filter-roller-inner">
-                <div class="filter-handle filter-handle-min"></div>
-                <div class="filter-handle filter-handle-max"></div>
-                <div class="wraper">
-                  <div class="filter-item-line"></div>
-                </div>
-              </div>
-            </div>
+             <div class="range-controls">
+               <div class="scale">
+                 <div class="bar"></div>
+               </div>
+               <div class="range-toggle range-toggle-min"></div>
+               <div class="range-toggle range-toggle-max"></div>
+             </div>
+             <button class="btn-transparent" type="submit">Показать</button>
           </fieldset>
-          <button class="button filter-button" type="submit">Показать</button>
+ 
           </div>
         </form>
       </section>
