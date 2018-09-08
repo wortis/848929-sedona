@@ -228,11 +228,15 @@ input[type="radio"].visually-hidden {
 }
 
 .calendar-icon {
+  position: absolute;
+  right: 55px;
+  padding-top: 5px;
   background-color: transparent;
   /*background-image: url("../img/calendar.svg");
   background-position: center right;
   background-repeat: no-repeat;*/
   fill: #cacaca;
+  
 }
 
 .calendar-icon:hover {
@@ -243,6 +247,44 @@ input[type="radio"].visually-hidden {
 .calendar-icon:active {
   background-color: transparent;
   fill: #81b3d2;
+}
+
+.less-button {
+  position: absolute;
+  right: 45px;
+  padding-top: 1px;
+  padding-left: 13px;
+  padding-bottom: 5px;
+  padding-right: 13px;
+}
+
+.less-button-2 {
+  position: absolute;
+  right: 80px;
+  padding-top: 1px;
+  padding-left: 13px;
+  padding-bottom: 5px;
+  padding-right: 13px;
+}
+
+.more-button {
+  position: absolute;
+  bottom: 30px;
+  left: 44px;
+  padding-top: 3px;
+  padding-left: 13px;
+  padding-bottom: 3px;
+  padding-right: 13px;
+}
+
+.more-button-2 {
+  position: absolute;
+  bottom: 30px;
+  left: 192px;
+  padding-top: 3px;
+  padding-left: 13px;
+  padding-bottom: 3px;
+  padding-right: 13px;
 }
 
 .less-button,
@@ -374,26 +416,89 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   width: 459px;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 .arrival-date {
   padding-top: 55px;
+  display: flex;
+}
+
+.arrival-date label {
+  width: 130px;
+  padding-right: 19px
+}
+
+.arrival-date input {
+  width: 430px;
 }
 
 .departure-date {
   padding-top: 29px;
+  display: flex;
+}
+
+.departure-date label {
+  width: 130px;
+  padding-right: 19px;
+}
+
+.departure-date input {
+  width: 430px;
+}
+
+.modal-grid {
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
 }
 
 .aduls {
-  padding-top: 30px; 
+  padding-top: 30px;
+  width: 50%;
+  display: flex;
+  position: relative;
+  right: 29px;
+}
+
+.aduls label {
+  margin: 0;
+  padding: 0;
+}
+
+.aduls-count {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 10px;
+}
+
+.aduls-count input {
+  width: 40px;
+  text-align: center;
 }
 
 .kids {
   padding-top: 30px;
   padding-bottom: 30px;
+  width: 50%;
+  display: flex;
+  position: relative;
+  left: 5px;
 }
 
+.kids label {
+  
+}
+
+.kids-count {
+  /*width: 120px;*/
+}
+
+.kids-count input {
+  width: 40px;
+  text-align: center;
+}
 
 .find-button {
   width: 100%;
