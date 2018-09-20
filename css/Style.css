@@ -246,11 +246,15 @@ input[type="radio"].visually-hidden {
 }
 
 .search-item input {
-  min-height: 26px;
+  min-height: 30px;
   font: inherit;
   text-transform: uppercase;
+  border: none;
 
   background-color: #f2f2f2;
+}
+
+
 }
 
 .search-item input:hover {
@@ -286,7 +290,7 @@ input[type="radio"].visually-hidden {
 
 .less-button {
   position: absolute;
-  right: 45px;
+  right: 40px;
   padding-top: 1px;
   padding-left: 13px;
   padding-bottom: 5px;
@@ -295,7 +299,7 @@ input[type="radio"].visually-hidden {
 
 .less-button-2 {
   position: absolute;
-  right: 80px;
+  right: 78px;
   padding-top: 1px;
   padding-left: 13px;
   padding-bottom: 5px;
@@ -305,7 +309,7 @@ input[type="radio"].visually-hidden {
 .more-button {
   position: absolute;
   bottom: 30px;
-  left: 44px;
+  left: 40px;
   padding-top: 3px;
   padding-left: 13px;
   padding-bottom: 3px;
@@ -315,7 +319,7 @@ input[type="radio"].visually-hidden {
 .more-button-2 {
   position: absolute;
   bottom: 30px;
-  left: 192px;
+  left: 191px;
   padding-top: 3px;
   padding-left: 13px;
   padding-bottom: 3px;
@@ -530,6 +534,7 @@ input[type="radio"].visually-hidden {
 
 .arrival-date input {
   width: 430px;
+  padding-left: 15px;
 }
 
 .departure-date {
@@ -546,6 +551,7 @@ input[type="radio"].visually-hidden {
 
 .departure-date input {
   width: 430px;
+  padding-left: 15px;
 }
 
 .modal-grid {
@@ -658,6 +664,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+
 .filter-input-checkbox[type="checkbox"] + .checkbox-indicator {
   position: absolute;
   top: 13;
@@ -748,13 +755,11 @@ input[type="radio"].visually-hidden {
 
 
 .filter-range {
-  position:absolute;
+  position: absolute;
   top: 1px;
-  right: 100px;
-  
+  right:94px;
   width: 330px;
-  margin:  0; 
-  padding: 0;
+  margin: 50px auto;
 
   color: #ffffff;
   text-transform: uppercase;
@@ -890,44 +895,6 @@ input[type="radio"].visually-hidden {
   background: #ffffff;
 }
 
--------------------
-.filter-controls label {
-  display: inline-block;
-
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-
-  cursor: pointer;
-}
-
-.filter-controls .min-price,
-.filter-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
-}
-
-.filter-controls input {
-  width: 50px;
-  margin: 0;
-
-  color: inherit;
-  font: inherit;
-
-  background: none;
-  border: none;
-}
-
-.filter-section label {
-  display: inline-block;
-
-  font-size: 14px;
-  line-height: 38px;
-  vertical-align: top;
-
-  cursor: pointer;
-}
-
 .filter ul {
   list-style: none;
   text-align: left;
@@ -935,6 +902,7 @@ input[type="radio"].visually-hidden {
 
 .filter li{
   padding-bottom: 20px;
+  
 }
 
 .filter-item input {
