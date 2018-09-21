@@ -469,17 +469,14 @@ input[type="radio"].visually-hidden {
 
 .modal {
   position:absolute;
+  top: 100%;
+  margin: auto;
   color: #000000;
   background-color: #ffffff;
-  top: 100%;
-  left: 0;
-  right: 0;
-  margin: auto;
   z-index: 3;
   }
 
 .modal-search-form {
-  top: 1530px;
   left: 26.3%;
   min-height: 395px;
   padding-left: 54px;
