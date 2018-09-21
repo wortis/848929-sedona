@@ -217,6 +217,7 @@ input[type="radio"].visually-hidden {
 .desire {
   text-align: center;
   background-color: #ffffff;
+  position: relative;
 }
 
 .desire b {
@@ -470,6 +471,10 @@ input[type="radio"].visually-hidden {
   position:absolute;
   color: #000000;
   background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
   z-index: 3;
   }
 
